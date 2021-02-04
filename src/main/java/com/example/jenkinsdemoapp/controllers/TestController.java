@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController {
 
-	@GetMapping("/home")
+	@GetMapping("/")
 	public ResponseEntity<String> welcome() {
 		return new ResponseEntity<String>("welcome to the demo spring boot app", HttpStatus.OK);
 	}
