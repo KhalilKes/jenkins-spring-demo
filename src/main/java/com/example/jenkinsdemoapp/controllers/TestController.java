@@ -15,7 +15,12 @@ public class TestController {
 	}
 	
 	@GetMapping("/home/{name}")
-	public ResponseEntity<String> getParamName(@PathVariable("name") String name) {
+	public ResponseEntity<String> setParamName(@PathVariable("name") String name) {
 		return new ResponseEntity<String>("Welcome to the app visitor: " + name, HttpStatus.OK);
+	}
+	
+	@GetMapping("/contact")
+	public ResponseEntity<String> getContactInfo(){
+		return new ResponseEntity<String>("contact us at pragmatic@mail.com", HttpStatus.OK);
 	}
 }
