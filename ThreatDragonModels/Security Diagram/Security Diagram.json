@@ -19,8 +19,8 @@
                 "height": 100
               },
               "position": {
-                "x": 266,
-                "y": 163
+                "x": 426,
+                "y": 181
               },
               "angle": 0,
               "id": "ab8ace4b-96d7-4911-aee5-363bd25ba479",
@@ -31,7 +31,59 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "process 0"
+                  "text": "Spring boot API"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Store",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 391,
+                "y": 429
+              },
+              "angle": 0,
+              "id": "56463d99-9968-4abe-affe-55fde147135f",
+              "z": 2,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Database RDS"
+                },
+                ".element-text": {
+                  "class": "element-text hasNoOpenThreats isInScope"
+                }
+              }
+            },
+            {
+              "type": "tm.Actor",
+              "size": {
+                "width": 160,
+                "height": 80
+              },
+              "position": {
+                "x": 50,
+                "y": 50
+              },
+              "angle": 0,
+              "id": "c5215fb9-ee6e-4a80-a653-a0f1360346f0",
+              "z": 3,
+              "hasOpenThreats": false,
+              "attrs": {
+                ".element-shape": {
+                  "class": "element-shape hasNoOpenThreats isInScope"
+                },
+                "text": {
+                  "text": "Browser"
                 },
                 ".element-text": {
                   "class": "element-text hasNoOpenThreats isInScope"
