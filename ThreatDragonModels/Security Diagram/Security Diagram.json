@@ -7,7 +7,7 @@
     "contributors": [],
     "diagrams": [
       {
-        "title": "STC1 sur AWS Modèle de Menaces",
+        "title": "STC1 Modèle de Menaces",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 0,
         "diagramJson": {
@@ -87,7 +87,7 @@
                   "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Database RDS"
+                  "text": "Database"
                 },
                 ".element-text": {
                   "class": "element-text hasOpenThreats isInScope"
