@@ -1,9 +1,16 @@
 {
   "summary": {
-    "title": "Security Diagram"
+    "title": "Security Diagram",
+    "owner": "khalil devsec"
   },
   "detail": {
     "contributors": [],
-    "diagrams": []
+    "diagrams": [
+      {
+        "title": "testsec",
+        "thumbnail": "./public/content/images/thumbnail.jpg",
+        "id": 0
+      }
+    ]
   }
 }
